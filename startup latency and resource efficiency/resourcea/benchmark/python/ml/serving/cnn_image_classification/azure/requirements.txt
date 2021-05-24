@@ -1,0 +1,4 @@
+azure-functions==1.0.0b3
+azure_storage_blob==1.0.0
+tensorflow==1.14.0
+Pillow
