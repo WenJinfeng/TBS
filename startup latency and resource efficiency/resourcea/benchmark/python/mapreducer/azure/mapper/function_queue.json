@@ -1,0 +1,12 @@
+{
+  "scriptFile": "__init__.py",
+  "bindings": [
+    {
+      "name": "myitem",
+      "type": "queueTrigger",
+      "direction": "in",
+      "queueName": "queuetestforly",
+      "connection": "queueconnect"
+    }
+  ]
+}
