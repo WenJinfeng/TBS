@@ -1,0 +1,1 @@
+Serverless computing offers developers the ability of deploying applications in the cloud with an autoscaing
