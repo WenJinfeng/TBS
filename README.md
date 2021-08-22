@@ -35,7 +35,7 @@ performance for macrobenchmarks, e.g., video processing, machine learning servin
 2.3 Finally, we quantitatively compare the concurrency performance of different serverless computing platforms, i.e., how they perform when dealing with multiple requests due to different auto-scaling features and inherent concurrency limits. A coming request may be throttled if no available function instances can handle it, which results in non-negligible latency. Meanwhile, we try to analyze the potential causes influencing concurrency performance by analyzing and inferring their scalability strategy and load balancing from a black-box perspective. 
 
 
-We create 20 python-based serverless functions with the same configuration and code but different function names [f1, f2, ..., f20] and invoke each fi with 10xi concurrent requests. Meanwhile, we also explore concurrency performance under various memory sizes.
+We create 20 python-based serverless functions with the same configuration and code but different function names [f1, f2, ..., f20] and invoke each fi with 10 x i concurrent requests. Meanwhile, we also explore concurrency performance under various memory sizes.
 ![image](https://user-images.githubusercontent.com/51308506/130357581-45f30092-05f8-4212-8f3f-a6bc3bd727d6.png)
 
 We use the runtime information (e.g., VMs and function instances) collected by our collection function in TBS, in order to analyze potential causes. Finally, we suppose request scheduling strategies for these serverless computing platforms. More details can be found in our paper.
