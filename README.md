@@ -1,4 +1,7 @@
-# Characterizing Commodity Serverless Computing Platforms
+# Characterizing Commodity Serverless Computing Platforms 
+
+Our paper: https://onlinelibrary.wiley.com/doi/10.1002/smr.2394
+
 
 ### 1. In qualitative analysis, we explore and summarize the various characteristics described in the official documentation of these serverless computing platforms. These characteristics specify the inherent restrictions of different aspects involving developing, deploying, and executing functions, which may result in fatal failures if developers do not comply with these restrictions. To this end, we construct a taxonomy with respect to the need-to-consider information from three aspects,i.e., development, deployment, and runtime. Such a taxonomy can help developers better understand the supported characteristics of serverless computing platforms to facilitate further development practice.
 
